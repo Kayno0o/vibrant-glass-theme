@@ -1,3 +1,6 @@
+
+/* DEFINE MAIN VARIABLES */
+
 .theme-dark {
     --header-primary: #fff;
     --text-normal: #fff;
@@ -44,7 +47,6 @@
 
 .bg-h5JY_x {
     background: var(--background-url) !important;
-    /* https://cdn.discordapp.com/attachments/696040243748536401/850445513542205531/1-IrFMpUu.png */
     background-size: cover !important;
 }
 
