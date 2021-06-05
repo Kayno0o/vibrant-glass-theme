@@ -1,0 +1,391 @@
+.theme-dark {
+    --header-primary: #fff;
+    --text-normal: #fff;
+    --interactive-normal: #fff;
+    --interactive-hover: #fff;
+    --interactive-active: #fff;
+    --background-mentioned: rgba(255, 255, 255, 0.05);
+    --header-secondary: #ccc;
+    --background-modifier-accent: #888;
+    --text-muted: #888;
+    --text-link: #0ef;
+    --text-positive: #4f0;
+    --interactive-muted: #555;
+    --background-primary: rgba(0, 0, 0, 0.5);
+    --background-secondary: rgba(0, 0, 0, 0.5);
+    --background-secondary-alt: rgba(0, 0, 0, 0.5);
+    --background-tertiary: rgba(0, 0, 0, 0.5);
+    --background-accent: rgba(0, 0, 0, 0.5);
+    --background-floating: rgba(0, 0, 0, 0.5);
+    --guild-header-text-shadow: none;
+    --scrollbar-auto-thumb: rgba(0, 0, 0, 0.5);
+    --scrollbar-auto-track: rgba(0, 0, 0, 0.2);
+}
+
+/* TITLE BAR */
+
+.titleBar-AC4pGV .wordmark-2iDDfm::after {
+    font-family: cursive;
+    letter-spacing: 1px;
+    content: "Eadlyn x Kaynooo ❤";
+    position: absolute;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 15px;
+    font-weight: bold;
+    top: 5px;
+    left: 5px;
+    width: 250px;
+}
+
+/* BOUTON X O - */
+
+.winButton-iRh8-Z {
+    position: absolute;
+    top: 4px;
+}
+
+/* BUTTON X */
+
+.winButton-iRh8-Z:nth-child(2) {
+    right: .5rem !important;
+}
+
+/* BUTTON O */
+
+.winButton-iRh8-Z:nth-child(3) {
+    right: 2.5rem !important;
+}
+
+/* HOVER O */
+
+.winButton-iRh8-Z:nth-child(3):hover {
+    background-color: var(--background-accent);
+}
+
+/* BUTTON - */
+
+.winButton-iRh8-Z:nth-child(4) {
+    right: 4.5rem !important;
+}
+
+/* HOVER - */
+
+.winButton-iRh8-Z:nth-child(4):hover {
+    background-color: var(--background-accent);
+}
+
+/* LOGO DISCORD */
+
+.wordmarkWindows-1v0lYD>* {
+    display: none;
+}
+
+/* SEND MESSAGE, ADD FRIEND */
+
+.actionButton-3W1xZa {
+    background-color: transparent !important;
+    border: 2px solid var(--text-positive);
+    border-radius: 1rem;
+}
+
+/* MESSAGE OPTION */
+
+.item-1tOPte:hover, .focused-3afm-j {
+    background-color: var(--background-accent) !important;
+}
+
+/* BLUR BACKGROUND */
+
+.backdrop-1wrmKB {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* WINDOW GLASS (content) */
+
+.container-2lgZY8>* {
+    padding: .5rem 0 .5rem 0;
+    border-radius: 20px 0 0 20px;
+}
+
+/* LAUNCH STREAM */
+
+.focusLock-Ns3yie>*, .flex-1xMQg5 {
+    background-color: var(--background-accent) !important;
+}
+
+/* IMAGES STATS */
+
+.imageDetails-1t6Zms {
+    background-color: transparent !important;
+}
+
+/* LAUNCH STREAM BUTTONS (cancel, go live) */
+
+.footer-2gL1pp, .container-OI6I9q {
+    justify-content: space-around !important;
+}
+
+/* BUTTON CHANGE STREAM */
+
+.changeButton-278ZT6 {
+    background-color: var(--background-accent) !important;
+}
+
+/* MEMBERS LIST PADDING */
+
+.chat-3bRxxu {
+    border-radius: 0 20px 20px 0;
+    margin-right: .5rem;
+}
+
+/* NO BORDER ROUND CHANNEL LIST */
+
+.base-3dtUhz, .sidebar-2K8pFh {
+    border-radius: 0 !important;
+    padding-right: 0rem !important;
+    border-radius: 0 !important;
+}
+
+/* SERVER LIST PADDING */
+
+.wrapper-3NnKdC {
+    padding: 0px;
+    margin: .5rem;
+    margin-right: 0px;
+}
+
+/* UPLOAD FILE BACKGROUND */
+
+.uploadModal-2ifh8j {
+    background-color: var(--background-accent) !important;
+}
+
+/* UPLOAD FILE INNER BACKGROUND */
+
+.uploadModal-2ifh8j>.inner-3nWsbo {
+    background-color: transparent !important;
+}
+
+/* BACKGROUND */
+
+.bg-h5JY_x {
+    background: url("https://cdn.discordapp.com/attachments/696040243748536401/850445513542205531/1-IrFMpUu.png") !important;
+    /* https://cdn.discordapp.com/attachments/696040243748536401/850445513542205531/1-IrFMpUu.png */
+    background-size: cover !important;
+}
+
+/* MESSAGE AREA ROUND*/
+
+.inputDefault-_djjkz, .channelTextArea-rNsIhG {
+    border-radius: 2rem !important;
+}
+
+/* FOCUSED NOTES / MESSAGE */
+
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus, .input-cIJ7To {
+    border: none !important;
+}
+
+/* ADD ROLES LIST */
+
+.animatorTop-2Y7x2r {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    border-radius: 1rem !important;
+}
+
+/* BOTTOM LEFT (screen) TEXT */
+
+.noWrap-3jynv6 {
+    background-color: transparent !important;
+}
+
+/* ADD ROLES LIST */
+
+.animatorTop-2Y7x2r>* {
+    border: none !important;
+    border-radius: 1rem !important;
+}
+
+/* NOTES */
+
+.note-3HfJZ5>* {
+    padding: 1rem;
+}
+
+/* AUTOCOMPLETE (EMOJIS) */
+
+.autocompleteInner-zh20B_, .base-1pYU8j:hover {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+/* ROLES */
+
+.role-2irmRk {
+    border: solid 11px;
+    padding: 0 !important;
+}
+
+/* PROFILE CONNECTIONS */
+
+.connectedAccount-36nQx7 {
+    border: none;
+}
+
+/* ROLES LIST PROFILE */
+
+.flex-1O1GKY {
+    justify-content: center;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+/* PROFILE BACKGROUND */
+
+.userPopout-3XzG_A {
+    background-color: black !important;
+}
+
+.children-19S4PO::after {
+    background: none !important;
+}
+
+/* MESSAGE DIVIDE */
+
+.divider-3_HH5L {
+    border-top: white 1px solid;
+}
+
+/* (NEW) MESSAGE DIVIDE DATE */
+
+.content-1o0f9g {
+    margin-bottom: 1rem;
+    background: none !important;
+    color: var(--text-normal);
+}
+
+/* NEW MESSAGE DIVIDE */
+
+.isUnread-3Ef-o9 {
+    border-top: #ed4245 solid 1px !important;
+}
+
+/* RIGHT CLICK IMAGE */
+
+.menu-3sdvDG {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+/* MESSAGE DATE */
+
+.timestampInline-yHQ6fX {
+    color: var(--text-normal) !important;
+    opacity: 0.8;
+}
+
+/* MEMBER LIST / MESSAGE TEXTAREA TRANSPARENT */
+
+.channelTextArea-rNsIhG>*:not(.bf-toolbar), .content-3YMskv {
+    background-color: transparent !important;
+}
+
+/* MESSAGE LIST BOTTOM MASK */
+
+.messagesWrapper-1sRNjr {
+    margin-bottom: 8px;
+}
+
+/* SHADOW BUG LEFT MESSAGE TEXTAREA */
+
+.form-2fGMdU::before {
+    display: none;
+}
+
+/* PROFILE TITLE CENTER (role/notes) */
+
+.bodyTitle-Y0qMQz {
+    text-align: center;
+}
+
+/* PROFILE ROLE LIST DELETE CROSS */
+
+.role-2irmRk:hover>.roleCircle-3xAZ1j {
+    background-color: transparent !important;
+}
+
+/* FRIENDS LIST HOVER ACTIVITY */
+
+.itemCard-v9viV7:hover {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+/* FRIENDS LIST HOVER ACTIVITY TYPE */
+
+.body-1ld4H7 {
+    background-color: transparent !important;
+}
+
+/* SPEAKING COLOR */
+
+.border-3dQmSY.speaking-WDn8Wm {
+    box-shadow: none !important;
+    padding: 1rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(135deg, rgba(255, 0, 0, 1) 0%, rgba(255, 162, 0, 1) 20%, rgba(255, 248, 0, 1) 40%, rgba(0, 255, 64, 1) 60%, rgba(0, 31, 255, 1) 80%, rgba(98, 0, 255, 1) 100%) 1;
+}
+
+/* VOICE USERS LIST */
+
+.tile-2gi3tr {
+    background-color: rgba(50, 50, 50, 0.2) !important;
+}
+
+/* STREAM VOICE LIST */
+
+.videoWrapper-2v09vt {
+    background-color: transparent !important;
+}
+
+.formattedSize-2PXVec {
+    color: var(--header-secondary) !important;
+    padding-left: .3rem;
+}
+
+.bf-hover:before {
+    background-color: var(--background-accent) !important;
+    color: transparent !important;
+}
+
+.placeholder-37qJjk {
+    color: var(--header-secondary) !important;
+}
+
+pre .hljs, .scrollableContainer-2NUZem, .container-1D34oG, .selected-1Tbx07 {
+    background-color: var(--background-accent) !important;
+}
+
+.headerBarContainer-31FKNA, .libraryHeader-3g95kE, .headerBar-1YYOfi {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.applicationStore-1pNvnv, .nowPlayingColumn-2sl4cE>*, .nowPlayingColumn-2sl4cE, .stickyHeader-1pqx0j, .scroller-1JbKMe, .wrapper-1-Fsb8 {
+    background-color: transparent !important;
+}
+
+.wrapper-1F5TKx {
+    background-color: var(--background-accent) !important;
+    color: var(--background-accent) !important;
+    border-radius: 10px;
+    margin: .2rem !important;
+}
+
+.scroller-3vODG7 {
+    background-color: white !important;
+}
+
+.itemCard-v9viV7 {
+    border: none;
+}
