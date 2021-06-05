@@ -45,7 +45,7 @@
 
 /* BACKGROUND */
 
-#app-mount {
+.bg-h5JY_x {
     background: var(--background-url) !important;
     background-size: cover !important;
 }
@@ -343,6 +343,12 @@
 
 .tile-2gi3tr {
     background-color: rgba(50, 50, 50, 0.2) !important;
+}
+
+/* VOICE USER CLEAR LIST */
+
+.noChat-18KtBD.video--KPXCT {
+    background-color: var(--background-primary) !important;
 }
 
 /* STREAM VOICE LIST */
