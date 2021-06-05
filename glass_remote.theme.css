@@ -45,7 +45,7 @@
 
 /* BACKGROUND */
 
-.bg-h5JY_x {
+#app-mount {
     background: var(--background-url) !important;
     background-size: cover !important;
 }
