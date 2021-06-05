@@ -43,7 +43,7 @@
 /* BACKGROUND */
 
 .bg-h5JY_x {
-    background: url(--background-url) !important;
+    background: var(--background-url) !important;
     /* https://cdn.discordapp.com/attachments/696040243748536401/850445513542205531/1-IrFMpUu.png */
     background-size: cover !important;
 }
