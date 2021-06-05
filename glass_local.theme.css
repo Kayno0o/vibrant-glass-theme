@@ -17,3 +17,10 @@
     --opacity: 0.5;
     --background-url: url("https://cdn.discordapp.com/attachments/696040243748536401/850445513542205531/1-IrFMpUu.png");
 }
+
+/* BACKGROUND */
+
+.app-2rEoOp > .bg-h5JY_x {
+    background: var(--background-url) !important;
+    background-size: cover !important;
+}

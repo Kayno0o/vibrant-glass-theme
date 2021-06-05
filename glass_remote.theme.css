@@ -43,13 +43,6 @@
     width: 250px;
 }
 
-/* BACKGROUND */
-
-.app-mount:before {
-    background: var(--background-url) !important;
-    background-size: cover !important;
-}
-
 /* BOUTON X O - */
 
 .winButton-iRh8-Z {
