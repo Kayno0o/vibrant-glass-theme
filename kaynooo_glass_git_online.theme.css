@@ -11,14 +11,14 @@
     --text-link: #0ef;
     --text-positive: #4f0;
     --interactive-muted: #555;
-    --background-primary: rgba(0, 0, 0, 0.5);
-    --background-secondary: rgba(0, 0, 0, 0.5);
-    --background-secondary-alt: rgba(0, 0, 0, 0.5);
-    --background-tertiary: rgba(0, 0, 0, 0.5);
-    --background-accent: rgba(0, 0, 0, 0.5);
-    --background-floating: rgba(0, 0, 0, 0.5);
+    --background-primary: rgba(0, 0, 0, var(--opacity));
+    --background-secondary: rgba(0, 0, 0, var(--opacity));
+    --background-secondary-alt: rgba(0, 0, 0, var(--opacity));
+    --background-tertiary: rgba(0, 0, 0, var(--opacity));
+    --background-accent: rgba(0, 0, 0, var(--opacity));
+    --background-floating: rgba(0, 0, 0, var(--opacity));
     --guild-header-text-shadow: none;
-    --scrollbar-auto-thumb: rgba(0, 0, 0, 0.5);
+    --scrollbar-auto-thumb: rgba(0, 0, 0, var(--opacity));
     --scrollbar-auto-track: rgba(0, 0, 0, 0.2);
 }
 
@@ -27,7 +27,7 @@
 .titleBar-AC4pGV .wordmark-2iDDfm::after {
     font-family: cursive;
     letter-spacing: 1px;
-    content: "Eadlyn x Kaynooo ❤";
+    content: var(--window-name);
     position: absolute;
     background: white;
     -webkit-background-clip: text;
