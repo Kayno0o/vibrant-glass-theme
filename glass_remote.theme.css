@@ -2,27 +2,34 @@
 /* DEFINE MAIN VARIABLES */
 
 .theme-dark {
-    --header-primary: #fff;
-    --text-normal: #fff;
-    --interactive-normal: #fff;
-    --interactive-hover: #fff;
-    --interactive-active: #fff;
-    --background-mentioned: rgba(255, 255, 255, 0.05);
-    --header-secondary: #ccc;
-    --background-modifier-accent: #888;
-    --text-muted: #888;
-    --text-link: #0ef;
-    --text-positive: #4f0;
-    --interactive-muted: #555;
-    --background-primary: rgba(0, 0, 0, var(--opacity));
-    --background-secondary: rgba(0, 0, 0, var(--opacity));
-    --background-secondary-alt: rgba(0, 0, 0, var(--opacity));
-    --background-tertiary: rgba(0, 0, 0, var(--opacity));
-    --background-accent: rgba(0, 0, 0, var(--opacity));
-    --background-floating: rgba(0, 0, 0, var(--opacity));
+    --text-normal: rgb(255, 255, 255);
+    --header-primary: var(--text-normal);
+    --interactive-normal: var(--text-normal);
+    --interactive-hover: var(--text-normal);
+    --interactive-active: var(--text-normal);
+    --header-secondary: rgb(204, 204, 204);
+    --background-modifier-accent: rgb(187, 187, 187);
+    --text-muted: rgb(187, 187, 187);
+    --text-link: rgb(72, 222, 233);
+    --text-positive: rgb(98, 185, 67);
+    --text-positive-opacity: rgba(98, 255, 67, var(--opacity));
+    --interactive-muted: rgb(70, 70, 70);
     --guild-header-text-shadow: none;
-    --scrollbar-auto-thumb: rgba(0, 0, 0, var(--opacity));
-    --scrollbar-auto-track: rgba(0, 0, 0, 0.2);
+    --normal-background: rgba(var(--background-color), var(--opacity));
+    --background-accent: var(--normal-background);
+    --background-primary: var(--normal-background);
+    --background-secondary: var(--normal-background);
+    --background-secondary-alt: var(--normal-background);
+    --background-tertiary: var(--normal-background);
+    --background-floating: var(--normal-background);
+    --scrollbar-auto-thumb: var(--normal-background);
+    --light-background: rgba(var(--background-color), var(--light-opacity));
+    --background-mentioned: var(--light-background);
+    --scrollbar-auto-track: var(--light-background);
+    --dark-background: rgba(var(--background-color), var(--dark-opacity));
+    --notification-color: 250, 100, 150;
+    --notification: rgb(var(--notification-color));
+    --notification-opacity: rgba(var(--notification-color), var(--dark-opacity));
 }
 
 /* TITLE BAR */
@@ -32,7 +39,7 @@
     letter-spacing: 1px;
     content: var(--window-name);
     position: absolute;
-    background: white;
+    background: var(--window-name-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -56,6 +63,12 @@
     right: .5rem !important;
 }
 
+/* CREATE CHANNEL */
+
+.modal-2VIBV8>* {
+    background-color: var(--normal-background) !important;
+}
+
 /* BUTTON O */
 
 .winButton-iRh8-Z:nth-child(3) {
@@ -65,7 +78,7 @@
 /* HOVER O */
 
 .winButton-iRh8-Z:nth-child(3):hover {
-    background-color: var(--background-accent);
+    background-color: var(--normal-background);
 }
 
 /* BUTTON - */
@@ -77,10 +90,28 @@
 /* HOVER - */
 
 .winButton-iRh8-Z:nth-child(4):hover {
-    background-color: var(--background-accent);
+    background-color: var(--normal-background);
 }
 
-/* LOGO DISCORD */
+/* BIG PROFILE */
+
+.flex-1xMQg5.root-SR8cQa, .topSectionPlaying-1J5E4n {
+    background-color: var(--light-background) !important;
+}
+
+/* BIG PROFILE PLAYING SPOTIFY */
+
+.topSectionSpotify-1lI0-P {
+    background-color: var(--text-positive-opacity) !important;
+}
+
+/* PROFILE BANNER */
+
+.profileBanner-33-uE1 {
+    opacity: var(--opacity);
+}
+
+/* REMOVE DISCORD NAME TOP LEFT OF WINDOW */
 
 .wordmarkWindows-1v0lYD>* {
     display: none;
@@ -92,31 +123,25 @@
     background-color: transparent !important;
     border: 2px solid var(--text-positive);
     border-radius: 1rem;
+    color: var(--text-normal) !important;
 }
 
 /* MESSAGE OPTION */
 
 .item-1tOPte:hover, .focused-3afm-j {
-    background-color: var(--background-accent) !important;
+    background-color: var(--normal-background) !important;
 }
 
 /* BLUR BACKGROUND */
 
 .backdrop-1wrmKB {
-    background-color: rgba(0, 0, 0, 0.6) !important;
-}
-
-/* WINDOW GLASS (content) */
-
-.container-2lgZY8>* {
-    padding: .5rem 0 .5rem 0;
-    border-radius: 20px 0 0 20px;
+    background-color: var(--dark-background) !important;
 }
 
 /* LAUNCH STREAM */
 
 .focusLock-Ns3yie>*, .flex-1xMQg5 {
-    background-color: var(--background-accent) !important;
+    background-color: var(--dark-background) !important;
 }
 
 /* IMAGES STATS */
@@ -134,14 +159,7 @@
 /* BUTTON CHANGE STREAM */
 
 .changeButton-278ZT6 {
-    background-color: var(--background-accent) !important;
-}
-
-/* MEMBERS LIST PADDING */
-
-.chat-3bRxxu {
-    border-radius: 0 20px 20px 0;
-    margin-right: .5rem;
+    background-color: var(--normal-background) !important;
 }
 
 /* NO BORDER ROUND CHANNEL LIST */
@@ -156,14 +174,12 @@
 
 .wrapper-3NnKdC {
     padding: 0px;
-    margin: .5rem;
-    margin-right: 0px;
 }
 
 /* UPLOAD FILE BACKGROUND */
 
 .uploadModal-2ifh8j {
-    background-color: var(--background-accent) !important;
+    background-color: var(--normal-background) !important;
 }
 
 /* UPLOAD FILE INNER BACKGROUND */
@@ -172,55 +188,30 @@
     background-color: transparent !important;
 }
 
-/* MESSAGE AREA ROUND*/
-
-.inputDefault-_djjkz, .channelTextArea-rNsIhG {
-    border-radius: 2rem !important;
-}
-
-/* FOCUSED NOTES / MESSAGE */
-
-.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus, .input-cIJ7To {
-    border: none !important;
-}
-
-/* ADD ROLES LIST */
+/* ADD ROLES LIST BACKGROUND */
 
 .animatorTop-2Y7x2r {
-    background-color: rgba(0, 0, 0, 0.75) !important;
+    background-color: var(--dark-background) !important;
     border-radius: 1rem !important;
 }
 
-/* BOTTOM LEFT (screen) TEXT */
+/* BOTTOM LEFT TEXT (voice buttons) */
 
 .noWrap-3jynv6 {
     background-color: transparent !important;
 }
 
-/* ADD ROLES LIST */
+/* ADD ROLES LIST BORDER */
 
 .animatorTop-2Y7x2r>* {
     border: none !important;
     border-radius: 1rem !important;
 }
 
-/* NOTES */
-
-.note-3HfJZ5>* {
-    padding: 1rem;
-}
-
 /* AUTOCOMPLETE (EMOJIS) */
 
 .autocompleteInner-zh20B_, .base-1pYU8j:hover {
-    background-color: rgba(0, 0, 0, 0.75) !important;
-}
-
-/* ROLES */
-
-.role-2irmRk {
-    border: solid 11px;
-    padding: 0 !important;
+    background-color: var(--dark-background) !important;
 }
 
 /* PROFILE CONNECTIONS */
@@ -231,26 +222,184 @@
 
 /* ROLES LIST PROFILE */
 
-.flex-1O1GKY {
+.root-3-B5F3.flex-1O1GKY {
     justify-content: center;
     padding-left: 1px;
     padding-right: 1px;
 }
 
+/* ROLES LIST PROFILE BACKGROUND */
+
+.role-2irmRk {
+    border: solid 11px;
+    padding: 0 !important;
+}
+
+/* USER SETTINGS */
+
+.layer-3QrUeG, .layers-3iHuyZ, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e, .sidebarRegion-VFTUkN>* {
+    background-color: transparent !important;
+}
+
+/* USER SETTINGS TITLE */
+
+.header-2RyJ0Y {
+    color: var(--text-muted);
+    font-size: medium;
+}
+
+/* NO GAME ACTIVITY DETECTED */
+
+.notDetected-33MY4s {
+    background-color: transparent !important;
+}
+
+/* CHANGE GAME ACTIVITY NAME / FOCUSED GAME ACTIVITY */
+
+.gameNameInput-385LoS:focus, .gameNameInput-385LoS:hover {
+    background-color: var(--normal-background) !important;
+    border-color: var(--normal-background) !important;
+}
+
+/* GAME ACTIVITY HOVER */
+
+.game-1ipmAa:hover::before, .game-1ipmAa::before, .card-FDVird.active-nvdKfC:before, .card-FDVird:focus-within:before, .card-FDVird:hover:before {
+    background-color: transparent !important;
+    border: none !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* USER SETTINGS SECTION TITLE */
+
+.h5-18_1nd {
+    color: var(--text-muted) !important;
+}
+
+/* USER SETTINGS SELECTED TAB */
+
+.selected-3s45Ha, .premiumTabItem-1QTfBr[aria-selected=true] {
+    background-color: var(--normal-background) !important;
+}
+
+/* REPLY BAR */
+
+.replyBar-1YLQ2F {
+    background-color: transparent !important;
+}
+
+/* NITRO TAB ICON */
+
+.premiumTabItem-1QTfBr>*>* {
+    fill: rgb(255, 255, 255) !important;
+}
+
+/* USER SETTINGS HOVER TAB */
+
+.item-PXvHYJ:hover {
+    background-color: var(--light-background) !important;
+}
+
+/* INNER APP/WINDOW RADIUS */
+
+.layers-3iHuyZ {
+    border-radius: 1rem;
+}
+
+/* APP/WINDOW PADDING */
+
+.app-2rEoOp {
+    padding: 1rem !important;
+}
+
 /* PROFILE BACKGROUND */
 
 .userPopout-3XzG_A {
-    background-color: black !important;
+    background-color: var(--dark-background) !important;
 }
 
-.children-19S4PO::after {
+/* RIGHT PROFILE BACKGROUND */
+
+.animatorLeft-1EQxU0>.userPopout-3XzG_A {
+    background-color: transparent !important;
+}
+
+/* PROFILE HEADER */
+
+.headerTop-2cWpdB {
     background: none !important;
 }
 
-/* MESSAGE DIVIDE */
+/* TEXTAREA USER PROFILE NOTES/MESSAGE */
 
-.divider-3_HH5L {
-    border-top: white 1px solid;
+.input-cIJ7To {
+    padding: calc(2px + var(--rainbow-gradient-width)) !important;
+}
+
+/* FOCUSED USER PROFILE NOTES / MESSAGE */
+
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+    box-sizing: border-box;
+    border-width: var(--rainbow-gradient-width);
+    border-style: solid;
+    border-image: var(--rainbow-gradient) 1;
+    padding: 2px !important;
+}
+
+/* MESSAGE DIVIDE / SEPARATORS / TRANSACTION HISTORY SEPARATOR / BOTTOM LEFT USER PANEL */
+
+.divider-3_HH5L, .separator-2I32lJ, .game-1ipmAa, .divider-3573oO, .hoverablePayment-Yc6mK7, .paymentRow-2e7VM6, .container-6sXIoE, .container-1giJp5 {
+    border-color: rgb(150, 150, 150) !important;
+    /* rainbow or white : invert lines */
+    border-image: var(--rainbow-gradient) 1 !important;
+    border-image: none !important;
+}
+
+/* USER SETTINGS SEPARATOR */
+
+.separator-gCa7yv {
+    /* rainbow or white : invert lines */
+    background: var(--rainbow-gradient) !important;
+    background: rgb(150, 150, 150) !important;
+}
+
+/* GAME ACTIVITY LIST SEPARATOR */
+
+.game-1ipmAa {
+    box-shadow: none !important;
+    border-bottom: solid 1px;
+}
+
+/* BILLING FOOTER */
+
+.card-3Qj_Yx {
+    background-color: var(--light-background) !important;
+    border: none !important;
+}
+
+/* TRANSACTION HISTORY */
+
+.hoverablePayment-Yc6mK7, .verticalFit-waKLYN>*, .paymentRow-2e7VM6 {
+    background-color: transparent !important;
+}
+
+/* TRANSACTION DETAILS */
+
+.expandedInfo-3kfShd {
+    background-color: var(--normal-background) !important;
+}
+
+/* PAYMENT NAME */
+
+.description-HxwDO4 {
+    color: var(--text-normal) !important;
+}
+
+/* PAYMENT DETAILS */
+
+.subText-V8PTt8 {
+    text-align: center;
+    color: var(--text-muted);
 }
 
 /* (NEW) MESSAGE DIVIDE DATE */
@@ -261,16 +410,16 @@
     color: var(--text-normal);
 }
 
-/* NEW MESSAGE DIVIDE */
+/* MESSAGE MENTION */
 
-.isUnread-3Ef-o9 {
-    border-top: #ed4245 solid 1px !important;
+.mentioned-xhSam7:hover {
+    background-color: var(--normal-background) !important;
 }
 
-/* RIGHT CLICK IMAGE */
+/* RIGHT CLICK IMAGE/USER */
 
 .menu-3sdvDG {
-    background-color: rgb(0, 0, 0) !important;
+    background-color: var(--dark-background) !important;
 }
 
 /* MESSAGE DATE */
@@ -284,6 +433,12 @@
 
 .channelTextArea-rNsIhG>*:not(.bf-toolbar), .content-3YMskv {
     background-color: transparent !important;
+}
+
+/* MESSAGE TEXTAREA */
+
+.channelTextArea-rNsIhG {
+    border-radius: 1.5rem !important;
 }
 
 /* MESSAGE LIST BOTTOM MASK */
@@ -313,7 +468,7 @@
 /* FRIENDS LIST HOVER ACTIVITY */
 
 .itemCard-v9viV7:hover {
-    background-color: rgba(0, 0, 0, 0.75) !important;
+    background-color: var(--dark-background) !important;
 }
 
 /* FRIENDS LIST HOVER ACTIVITY TYPE */
@@ -329,23 +484,41 @@
     padding: 1rem;
     border-width: 3px;
     border-style: solid;
-    border-image: linear-gradient(135deg, rgba(255, 0, 0, 1) 0%, rgba(255, 162, 0, 1) 20%, rgba(255, 248, 0, 1) 40%, rgba(0, 255, 64, 1) 60%, rgba(0, 31, 255, 1) 80%, rgba(98, 0, 255, 1) 100%) 1;
+    border-image: var(--rainbow-gradient) 1;
+}
+
+/* STREAM SELECT SCREEN TILES (hover) */
+
+.tile-2w4k5N>*>.flex-1xMQg5>*:hover {
+    box-shadow: none !important;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: solid;
+    border-image: var(--rainbow-gradient) 1;
 }
 
 /* VOICE USERS LIST */
 
-.tile-2gi3tr {
-    background-color: rgba(50, 50, 50, 0.2) !important;
+.tile-2gi3tr, .content-2Sfaij>.flex-1xMQg5, .inner-2O5YO7>.root-2VTZPJ.tile-2naSqK {
+    background-color: var(--light-background) !important;
 }
 
 /* VOICE USER CLEAR LIST */
 
-.noChat-18KtBD.video--KPXCT {
-    background-color: var(--background-primary) !important;
+.noChat-18KtBD.video--KPXCT, .video--KPXCT {
+    background-color: var(--normal-background) !important;
 }
 
-.app-2rEoOp {
-    background-color: transparent !important;
+/* NO USER IN VOICE CHANNEL -> INVITE BUTTON */
+
+.outerButton-1CWJC->* {
+    background-color: var(--light-background);
+}
+
+/* NO USER IN VOICE CHANNEL -> HOVER INVITE BUTTON */
+
+.outerButton-1CWJC->*:hover {
+    background-color: var(--dark-background);
 }
 
 /* STREAM VOICE LIST */
@@ -354,13 +527,105 @@
     background-color: transparent !important;
 }
 
+/* REMOVE BASE STREAM TILES BORDER */
+
+.gradientTop-3UWg3T, .gradientBottom-3X4SdK {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+/* REMOVE HOVER SHADOW VOICE USER LIST */
+
+.callContainer-36WRfH>.root-217Brm>*>* {
+    box-shadow: none !important;
+}
+
+/* SELECTED ELEMENT */
+
+.selected-1Tbx07 {
+    background-color: var(--dark-background) !important;
+}
+
+/* HYPESQUAD HOUSE BACKGROUND */
+
+.membershipDialog-rVL-t_ {
+    background-color: var(--light-background) !important;
+    border-radius: 1rem;
+}
+
+/* RE-TAKE HYPESQUAD TEST */
+
+.membershipDialogSwitchHousesAction-2a3eDg {
+    color: var(--text-link);
+}
+
+/* RE-TAKE HYPESQUAD TEST HOVER */
+
+.membershipDialogSwitchHousesAction-2a3eDg:hover {
+    color: var(--text-link);
+    text-decoration: underline;
+}
+
+/* MENTION/NOTIFICATION BADGE/BAR (bottom server list) */
+
+.numberBadge-2s8kKX, .bar-30k2ka {
+    background-color: var(--notification-opacity) !important;
+    opacity: 1;
+}
+
+/* MENTION/NOTIFICATION BAR HOVER */
+
+.bar-30k2ka:hover {
+    background-color: var(--notification) !important;
+    opacity: 1;
+}
+
+/* DISCORD LOGO */
+
+.childWrapper-anI2G9 {
+    background-color: transparent !important;
+}
+
+/* DISCORD LOGO HOVER */
+
+.childWrapper-anI2G9:hover {
+    background-color: var(--normal-background) !important;
+}
+
+/* MESSAGE HOVER */
+
+.message-2qnXI6:hover {
+    background-color: var(--light-background) !important;
+}
+
+/* LOADING MESSAGES */
+
+.wrapper-1F5TKx {
+    background-color: var(--normal-background) !important;
+    color: var(--normal-background) !important;
+    border-radius: 10px;
+    margin: .2rem !important;
+}
+
+/* BETTER DISCORD SETTINGS BUTTONS */
+
+.bd-button {
+    background-color: var(--normal-background) !important;
+}
+
+/* BETTER DISCORD SETTINGS BUTTONS HOVER */
+
+.bd-button:hover {
+    background-color: var(--dark-background) !important;
+}
+
 .formattedSize-2PXVec {
     color: var(--header-secondary) !important;
     padding-left: .3rem;
 }
 
 .bf-hover:before {
-    background-color: var(--background-accent) !important;
+    background-color: var(--normal-background) !important;
     color: transparent !important;
 }
 
@@ -368,23 +633,16 @@
     color: var(--header-secondary) !important;
 }
 
-pre .hljs, .scrollableContainer-2NUZem, .container-1D34oG, .selected-1Tbx07 {
-    background-color: var(--background-accent) !important;
+pre .hljs, .scrollableContainer-2NUZem, .container-1D34oG {
+    background-color: var(--normal-background) !important;
 }
 
 .headerBarContainer-31FKNA, .libraryHeader-3g95kE, .headerBar-1YYOfi {
-    background-color: rgba(0, 0, 0, 0.75) !important;
+    background-color: var(--dark-background) !important;
 }
 
 .applicationStore-1pNvnv, .nowPlayingColumn-2sl4cE>*, .nowPlayingColumn-2sl4cE, .stickyHeader-1pqx0j, .scroller-1JbKMe, .wrapper-1-Fsb8 {
     background-color: transparent !important;
-}
-
-.wrapper-1F5TKx {
-    background-color: var(--background-accent) !important;
-    color: var(--background-accent) !important;
-    border-radius: 10px;
-    margin: .2rem !important;
 }
 
 .scroller-3vODG7 {
