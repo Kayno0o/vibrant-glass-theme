@@ -30,8 +30,8 @@ to create custom gradient : https://cssgradient.io/ and copy the linear-gradient
 .theme-dark {
     /*
     name of the Discord window (top left)
-    default : "Vibrant glass" */
-    --window-name: "Eadlyn x Kaynooo ❤";
+    default : "Vibrant Glass" */
+    --window-name: "Vibrant Glass";
     /*
     color of the Discord window name
     default : rgb(255, 255, 255) */
@@ -57,7 +57,7 @@ to create custom gradient : https://cssgradient.io/ and copy the linear-gradient
     default : linear-gradient(135deg, rgba(255, 0, 0, 1) 0%, rgba(255, 162, 0, 1) 20%, rgba(255, 248, 0, 1) 40%, rgba(0, 255, 64, 1) 60%, rgba(0, 31, 255, 1) 80%, rgba(98, 0, 255, 1) 100%) */
     --rainbow-gradient: linear-gradient(135deg, rgba(255, 0, 0, 1) 0%, rgba(255, 162, 0, 1) 20%, rgba(255, 248, 0, 1) 40%, rgba(0, 255, 64, 1) 60%, rgba(0, 31, 255, 1) 80%, rgba(98, 0, 255, 1) 100%);
     /*
-    gradient width
+    gradient width for profile notes/messages
     default : 1*/
     --rainbow-gradient-width: 1px;
     /*
