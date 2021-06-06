@@ -99,6 +99,12 @@
     background-color: var(--light-background) !important;
 }
 
+/* CODEBLOCK TITLE */
+
+.bd-codeblock-language, .bd-codeblock-table>*>* {
+    border: none !important;
+}
+
 /* BIG PROFILE PLAYING SPOTIFY */
 
 .topSectionSpotify-1lI0-P {
