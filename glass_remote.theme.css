@@ -35,7 +35,6 @@
 }
 
 /* TITLE BAR */
-
 .titleBar-AC4pGV .wordmark-2iDDfm::after {
     font-family: cursive;
     letter-spacing: 1px;
@@ -318,6 +317,7 @@
 
 .app-2rEoOp {
     padding: 1rem !important;
+    padding-top: 0 !important;
 }
 
 /* PROFILE BACKGROUND */
