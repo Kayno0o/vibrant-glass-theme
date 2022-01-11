@@ -1,4 +1,3 @@
-
 /* DEFINE MAIN VARIABLES */
 
 .theme-dark {
@@ -35,7 +34,7 @@
 }
 
 /* TITLE BAR */
-.titleBar-AC4pGV .wordmark-2iDDfm::after {
+.titleBar-1it3bQ .wordmark-2u86JB::after {
     font-family: cursive;
     letter-spacing: 1px;
     content: var(--window-name);
@@ -53,50 +52,50 @@
 
 /* BOUTON X O - */
 
-.winButton-iRh8-Z {
+.winButton-3UMjdg {
     position: absolute;
     top: 4px;
 }
 
 /* BUTTON X */
 
-.winButton-iRh8-Z:nth-child(2) {
+.winButton-3UMjdg:nth-child(2) {
     right: .5rem !important;
 }
 
 /* CREATE CHANNEL */
 
-.modal-2VIBV8>* {
+.modal-1Kmy_E>* {
     background-color: var(--normal-background) !important;
 }
 
 /* BUTTON O */
 
-.winButton-iRh8-Z:nth-child(3) {
+.winButton-3UMjdg:nth-child(3) {
     right: 2.5rem !important;
 }
 
 /* HOVER O */
 
-.winButton-iRh8-Z:nth-child(3):hover {
+.winButton-3UMjdg:nth-child(3):hover {
     background-color: var(--normal-background);
 }
 
 /* BUTTON - */
 
-.winButton-iRh8-Z:nth-child(4) {
+.winButton-3UMjdg:nth-child(4) {
     right: 4.5rem !important;
 }
 
 /* HOVER - */
 
-.winButton-iRh8-Z:nth-child(4):hover {
+.winButton-3UMjdg:nth-child(4):hover {
     background-color: var(--normal-background);
 }
 
 /* BIG PROFILE */
 
-.flex-1xMQg5.root-SR8cQa, .topSectionPlaying-1J5E4n {
+.flex-2S1XBF.root-SR8cQa, .topSectionPlaying-1J5E4n {
     background-color: var(--light-background) !important;
 }
 
@@ -114,13 +113,13 @@
 
 /* PROFILE BANNER */
 
-.profileBanner-33-uE1 {
+.profileBanner-1owKI5 {
     opacity: var(--opacity);
 }
 
 /* REMOVE DISCORD NAME TOP LEFT OF WINDOW */
 
-.wordmarkWindows-1v0lYD>* {
+.wordmarkWindows-2dq6rw>* {
     display: none;
 }
 
@@ -135,19 +134,19 @@
 
 /* MESSAGE OPTION */
 
-.item-1tOPte:hover, .focused-3afm-j {
+.item-1OdjEX:hover, .focused-3qFvc8 {
     background-color: var(--normal-background) !important;
 }
 
 /* BLUR BACKGROUND */
 
-.backdrop-1wrmKB {
+.backdrop-2ByYRN {
     background-color: var(--dark-background) !important;
 }
 
 /* LAUNCH STREAM */
 
-.focusLock-Ns3yie>*, .flex-1xMQg5 {
+.focusLock-2tveLW>*, .flex-2S1XBF {
     background-color: var(--dark-background) !important;
 }
 
@@ -159,19 +158,19 @@
 
 /* LAUNCH STREAM BUTTONS (cancel, go live) */
 
-.footer-2gL1pp, .container-OI6I9q {
+.footer-31IekZ, .container-2zEtSe {
     justify-content: space-around !important;
 }
 
 /* BUTTON CHANGE STREAM */
 
-.changeButton-278ZT6 {
+.changeButton-3QdaoH {
     background-color: var(--normal-background) !important;
 }
 
 /* NO BORDER ROUND CHANNEL LIST */
 
-.base-3dtUhz, .sidebar-2K8pFh {
+.base-2jDfDU, .sidebar-1tnWFu {
     border-radius: 0 !important;
     padding-right: 0rem !important;
     border-radius: 0 !important;
@@ -179,484 +178,10 @@
 
 /* SERVER LIST PADDING */
 
-.wrapper-3NnKdC {
+.wrapper-1_HaEi {
     padding: 0px;
 }
 
 /* UPLOAD FILE BACKGROUND */
 
-.uploadModal-2ifh8j {
-    background-color: var(--normal-background) !important;
-}
-
-/* UPLOAD FILE INNER BACKGROUND */
-
-.uploadModal-2ifh8j>.inner-3nWsbo {
-    background-color: transparent !important;
-}
-
-/* ADD ROLES LIST BACKGROUND */
-
-.animatorTop-2Y7x2r {
-    background-color: var(--dark-background) !important;
-    border-radius: 1rem !important;
-}
-
-/* BOTTOM LEFT TEXT (voice buttons) */
-
-.noWrap-3jynv6 {
-    background-color: transparent !important;
-}
-
-/* ADD ROLES LIST BORDER */
-
-.animatorTop-2Y7x2r>* {
-    border: none !important;
-    border-radius: 1rem !important;
-}
-
-/* AUTOCOMPLETE (EMOJIS) */
-
-.autocompleteInner-zh20B_, .base-1pYU8j:hover {
-    background-color: var(--dark-background) !important;
-}
-
-/* PROFILE CONNECTIONS */
-
-.connectedAccount-36nQx7 {
-    border: none;
-}
-
-/* ROLES LIST PROFILE */
-
-.root-3-B5F3.flex-1O1GKY {
-    justify-content: center;
-    padding-left: 1px;
-    padding-right: 1px;
-}
-
-/* ROLES LIST PROFILE BACKGROUND */
-
-.role-2irmRk {
-    border: solid 11px;
-    padding: 0 !important;
-}
-
-/* USER SETTINGS */
-
-.layer-3QrUeG, .layers-3iHuyZ, .contentRegion-3nDuYy, .contentRegionScroller-26nc1e, .sidebarRegion-VFTUkN>* {
-    background-color: transparent !important;
-}
-
-/* USER SETTINGS TITLE */
-
-.header-2RyJ0Y {
-    color: var(--text-muted);
-    font-size: medium;
-}
-
-/* NO GAME ACTIVITY DETECTED */
-
-.notDetected-33MY4s {
-    background-color: transparent !important;
-}
-
-/* CHANGE GAME ACTIVITY NAME / FOCUSED GAME ACTIVITY */
-
-.gameNameInput-385LoS:focus, .gameNameInput-385LoS:hover {
-    background-color: var(--normal-background) !important;
-    border-color: var(--normal-background) !important;
-}
-
-/* GAME ACTIVITY HOVER */
-
-.game-1ipmAa:hover::before, .game-1ipmAa::before, .card-FDVird.active-nvdKfC:before, .card-FDVird:focus-within:before, .card-FDVird:hover:before {
-    background-color: transparent !important;
-    border: none !important;
-    background-color: transparent !important;
-    border: none !important;
-}
-
-/* USER SETTINGS SECTION TITLE */
-
-.h5-18_1nd {
-    color: var(--text-muted) !important;
-}
-
-/* USER SETTINGS SELECTED TAB */
-
-.selected-3s45Ha, .premiumTabItem-1QTfBr[aria-selected=true] {
-    background-color: var(--normal-background) !important;
-}
-
-/* REPLY BAR */
-
-.replyBar-1YLQ2F {
-    background-color: transparent !important;
-}
-
-/* NITRO TAB ICON */
-
-.premiumTabItem-1QTfBr>*>* {
-    fill: rgb(255, 255, 255) !important;
-}
-
-/* USER SETTINGS HOVER TAB */
-
-.item-PXvHYJ:hover {
-    background-color: var(--light-background) !important;
-}
-
-/* INNER APP/WINDOW RADIUS */
-
-.layers-3iHuyZ {
-    border-radius: 1rem;
-}
-
-/* APP/WINDOW PADDING */
-
-.app-2rEoOp {
-    padding: 1rem !important;
-    padding-top: .25rem !important;
-}
-
-/* PROFILE BACKGROUND */
-
-.userPopout-3XzG_A {
-    background-color: var(--dark-background) !important;
-}
-
-/* RIGHT PROFILE BACKGROUND */
-
-.animatorLeft-1EQxU0>.userPopout-3XzG_A {
-    background-color: transparent !important;
-}
-
-/* PROFILE HEADER */
-
-.headerTop-2cWpdB {
-    background: none !important;
-}
-
-/* TEXTAREA USER PROFILE NOTES/MESSAGE */
-
-.input-cIJ7To {
-    padding: calc(2px + var(--rainbow-gradient-width)) !important;
-}
-
-/* FOCUSED USER PROFILE NOTES / MESSAGE */
-
-.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
-    box-sizing: border-box;
-    border-width: var(--rainbow-gradient-width);
-    border-style: solid;
-    border-image: var(--rainbow-gradient) 1;
-    padding: 2px !important;
-}
-
-/* MESSAGE DIVIDE / SEPARATORS / TRANSACTION HISTORY SEPARATOR / BOTTOM LEFT USER PANEL */
-
-.divider-3_HH5L, .separator-2I32lJ, .game-1ipmAa, .divider-3573oO, .hoverablePayment-Yc6mK7, .paymentRow-2e7VM6, .container-6sXIoE, .container-1giJp5 {
-    border-color: rgb(150, 150, 150) !important;
-    /* rainbow or white : invert lines */
-    border-image: var(--rainbow-gradient) 1 !important;
-    border-image: none !important;
-}
-
-/* USER SETTINGS SEPARATOR */
-
-.separator-gCa7yv {
-    /* rainbow or white : invert lines */
-    background: var(--rainbow-gradient) !important;
-    background: rgb(150, 150, 150) !important;
-}
-
-/* GAME ACTIVITY LIST SEPARATOR */
-
-.game-1ipmAa {
-    box-shadow: none !important;
-    border-bottom: solid 1px;
-}
-
-/* BILLING FOOTER */
-
-.card-3Qj_Yx {
-    background-color: var(--light-background) !important;
-    border: none !important;
-}
-
-/* TRANSACTION HISTORY */
-
-.hoverablePayment-Yc6mK7, .verticalFit-waKLYN>*, .paymentRow-2e7VM6 {
-    background-color: transparent !important;
-}
-
-/* TRANSACTION DETAILS */
-
-.expandedInfo-3kfShd {
-    background-color: var(--normal-background) !important;
-}
-
-/* PAYMENT NAME */
-
-.description-HxwDO4 {
-    color: var(--text-normal) !important;
-}
-
-/* PAYMENT DETAILS */
-
-.subText-V8PTt8 {
-    text-align: center;
-    color: var(--text-muted);
-}
-
-/* (NEW) MESSAGE DIVIDE DATE */
-
-.content-1o0f9g {
-    margin-bottom: 1rem;
-    background: none !important;
-    color: var(--text-normal);
-}
-
-/* MESSAGE MENTION */
-
-.mentioned-xhSam7:hover {
-    background-color: var(--normal-background) !important;
-}
-
-/* RIGHT CLICK IMAGE/USER */
-
-.menu-3sdvDG {
-    background-color: var(--dark-background) !important;
-}
-
-/* MESSAGE DATE */
-
-.timestampInline-yHQ6fX {
-    color: var(--text-normal) !important;
-    opacity: 0.8;
-}
-
-/* MEMBER LIST / MESSAGE TEXTAREA TRANSPARENT */
-
-.channelTextArea-rNsIhG>*:not(.bf-toolbar), .content-3YMskv {
-    background-color: transparent !important;
-}
-
-/* MESSAGE TEXTAREA */
-
-.channelTextArea-rNsIhG {
-    border-radius: 1.5rem !important;
-}
-
-/* MESSAGE LIST BOTTOM MASK */
-
-.messagesWrapper-1sRNjr {
-    margin-bottom: 8px;
-}
-
-/* SHADOW BUG LEFT MESSAGE TEXTAREA */
-
-.form-2fGMdU::before {
-    display: none;
-}
-
-/* PROFILE TITLE CENTER (role/notes) */
-
-.bodyTitle-Y0qMQz {
-    text-align: center;
-}
-
-/* PROFILE ROLE LIST DELETE CROSS */
-
-.role-2irmRk:hover>.roleCircle-3xAZ1j {
-    background-color: transparent !important;
-}
-
-/* FRIENDS LIST HOVER ACTIVITY */
-
-.itemCard-v9viV7:hover {
-    background-color: var(--dark-background) !important;
-}
-
-/* FRIENDS LIST HOVER ACTIVITY TYPE */
-
-.body-1ld4H7 {
-    background-color: transparent !important;
-}
-
-/* SPEAKING COLOR */
-
-.border-3dQmSY.speaking-WDn8Wm {
-    box-shadow: none !important;
-    padding: 1rem;
-    border-width: 3px;
-    border-style: solid;
-    border-image: var(--rainbow-gradient) 1;
-}
-
-/* STREAM SELECT SCREEN TILES (hover) */
-
-.tile-2w4k5N>*>.flex-1xMQg5>*:hover {
-    box-shadow: none !important;
-    box-sizing: border-box;
-    border-width: 3px;
-    border-style: solid;
-    border-image: var(--rainbow-gradient) 1;
-}
-
-/* VOICE USERS LIST */
-
-.tile-2gi3tr, .content-2Sfaij>.flex-1xMQg5, .inner-2O5YO7>.root-2VTZPJ.tile-2naSqK {
-    background-color: var(--light-background) !important;
-}
-
-/* VOICE USER CLEAR LIST */
-
-.noChat-18KtBD.video--KPXCT, .video--KPXCT {
-    background-color: var(--normal-background) !important;
-}
-
-/* NO USER IN VOICE CHANNEL -> INVITE BUTTON */
-
-.outerButton-1CWJC->* {
-    background-color: var(--light-background);
-}
-
-/* NO USER IN VOICE CHANNEL -> HOVER INVITE BUTTON */
-
-.outerButton-1CWJC->*:hover {
-    background-color: var(--dark-background);
-}
-
-/* STREAM VOICE LIST */
-
-.videoWrapper-2v09vt {
-    background-color: transparent !important;
-}
-
-/* REMOVE BASE STREAM TILES BORDER */
-
-.gradientTop-3UWg3T, .gradientBottom-3X4SdK {
-    box-shadow: none !important;
-    background: none !important;
-}
-
-/* REMOVE HOVER SHADOW VOICE USER LIST */
-
-.callContainer-36WRfH>.root-217Brm>*>* {
-    box-shadow: none !important;
-}
-
-/* SELECTED ELEMENT */
-
-.selected-1Tbx07 {
-    background-color: var(--dark-background) !important;
-}
-
-/* HYPESQUAD HOUSE BACKGROUND */
-
-.membershipDialog-rVL-t_ {
-    background-color: var(--light-background) !important;
-    border-radius: 1rem;
-}
-
-/* RE-TAKE HYPESQUAD TEST */
-
-.membershipDialogSwitchHousesAction-2a3eDg {
-    color: var(--text-link);
-}
-
-/* RE-TAKE HYPESQUAD TEST HOVER */
-
-.membershipDialogSwitchHousesAction-2a3eDg:hover {
-    color: var(--text-link);
-    text-decoration: underline;
-}
-
-/* MENTION/NOTIFICATION BADGE/BAR (bottom server list) */
-
-.numberBadge-2s8kKX, .bar-30k2ka {
-    background-color: var(--notification-opacity) !important;
-    opacity: 1;
-}
-
-/* MENTION/NOTIFICATION BAR HOVER */
-
-.bar-30k2ka:hover {
-    background-color: var(--notification) !important;
-    opacity: 1;
-}
-
-/* DISCORD LOGO */
-
-.childWrapper-anI2G9 {
-    background-color: transparent !important;
-}
-
-/* DISCORD LOGO HOVER */
-
-.childWrapper-anI2G9:hover {
-    background-color: var(--normal-background) !important;
-}
-
-/* MESSAGE HOVER */
-
-.message-2qnXI6:hover {
-    background-color: var(--light-background) !important;
-}
-
-/* LOADING MESSAGES */
-
-.wrapper-1F5TKx {
-    background-color: var(--normal-background) !important;
-    color: var(--normal-background) !important;
-    border-radius: 10px;
-    margin: .2rem !important;
-}
-
-/* BETTER DISCORD SETTINGS BUTTONS */
-
-.bd-button {
-    background-color: var(--normal-background) !important;
-}
-
-/* BETTER DISCORD SETTINGS BUTTONS HOVER */
-
-.bd-button:hover {
-    background-color: var(--dark-background) !important;
-}
-
-.formattedSize-2PXVec {
-    color: var(--header-secondary) !important;
-    padding-left: .3rem;
-}
-
-.bf-hover:before {
-    background-color: var(--normal-background) !important;
-    color: transparent !important;
-}
-
-.placeholder-37qJjk {
-    color: var(--header-secondary) !important;
-}
-
-pre .hljs, .scrollableContainer-2NUZem, .container-1D34oG {
-    background-color: var(--normal-background) !important;
-}
-
-.headerBarContainer-31FKNA, .libraryHeader-3g95kE, .headerBar-1YYOfi {
-    background-color: var(--dark-background) !important;
-}
-
-.applicationStore-1pNvnv, .nowPlayingColumn-2sl4cE>*, .nowPlayingColumn-2sl4cE, .stickyHeader-1pqx0j, .scroller-1JbKMe, .wrapper-1-Fsb8 {
-    background-color: transparent !important;
-}
-
-.scroller-3vODG7 {
-    background-color: white !important;
-}
-
-.itemCard-v9viV7 {
-    border: none;
-}
+.uploadModal-2ie9
