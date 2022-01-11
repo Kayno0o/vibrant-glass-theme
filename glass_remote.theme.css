@@ -185,3 +185,9 @@
 /* UPLOAD FILE BACKGROUND */
 
 .uploadModal-2ie9
+
+/* background var */
+.app-2CXKsg>.bg-1QIAus {
+    background: var(--background-url) !important;
+    background-size: cover !important;
+}
