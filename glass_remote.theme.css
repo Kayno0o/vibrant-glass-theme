@@ -191,3 +191,7 @@
     background: var(--background-url) !important;
     background-size: cover !important;
 }
+
+/* chat bar */
+ .scrollableContainer-15eg7h {
+background: var(--light-background); 
