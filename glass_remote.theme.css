@@ -1,5 +1,5 @@
-/* DEFINE MAIN VARIABLES */
 
+/* DEFINE MAIN VARIABLES */
 .theme-dark {
     --text-normal: rgb(255, 255, 255);
     --header-primary: var(--text-normal);
@@ -51,80 +51,69 @@
 }
 
 /* BOUTON X O - */
-
 .winButton-3UMjdg {
     position: absolute;
     top: 4px;
 }
 
 /* BUTTON X */
-
 .winButton-3UMjdg:nth-child(2) {
     right: .5rem !important;
 }
 
 /* CREATE CHANNEL */
-
-.modal-1Kmy_E>* {
+.modal-1Kmy_E > * {
     background-color: var(--normal-background) !important;
 }
 
 /* BUTTON O */
-
 .winButton-3UMjdg:nth-child(3) {
     right: 2.5rem !important;
 }
 
 /* HOVER O */
-
 .winButton-3UMjdg:nth-child(3):hover {
     background-color: var(--normal-background);
 }
 
 /* BUTTON - */
-
 .winButton-3UMjdg:nth-child(4) {
     right: 4.5rem !important;
 }
 
 /* HOVER - */
-
 .winButton-3UMjdg:nth-child(4):hover {
     background-color: var(--normal-background);
 }
 
 /* BIG PROFILE */
-
-.flex-2S1XBF.root-SR8cQa, .topSectionPlaying-1J5E4n {
+.flex-2S1XBF.root-SR8cQa,
+.topSectionPlaying-1J5E4n {
     background-color: var(--light-background) !important;
 }
 
 /* CODEBLOCK TITLE */
-
-.bd-codeblock-language, .bd-codeblock-table>*>* {
+.bd-codeblock-language,
+.bd-codeblock-table > * > * {
     border: none !important;
 }
 
 /* BIG PROFILE PLAYING SPOTIFY */
-
 .topSectionSpotify-1lI0-P {
     background-color: var(--text-positive-opacity) !important;
 }
 
 /* PROFILE BANNER */
-
 .profileBanner-1owKI5 {
     opacity: var(--opacity);
 }
 
 /* REMOVE DISCORD NAME TOP LEFT OF WINDOW */
-
-.wordmarkWindows-2dq6rw>* {
+.wordmarkWindows-2dq6rw > * {
     display: none;
 }
 
 /* SEND MESSAGE, ADD FRIEND */
-
 .actionButton-3W1xZa {
     background-color: transparent !important;
     border: 2px solid var(--text-positive);
@@ -133,65 +122,60 @@
 }
 
 /* MESSAGE OPTION */
-
-.item-1OdjEX:hover, .focused-3qFvc8 {
+.item-1OdjEX:hover,
+.focused-3qFvc8 {
     background-color: var(--normal-background) !important;
 }
 
 /* BLUR BACKGROUND */
-
 .backdrop-2ByYRN {
     background-color: var(--dark-background) !important;
 }
 
 /* LAUNCH STREAM */
-
-.focusLock-2tveLW>*, .flex-2S1XBF {
+.focusLock-2tveLW > *,
+.flex-2S1XBF {
     background-color: var(--dark-background) !important;
 }
 
 /* IMAGES STATS */
-
 .imageDetails-1t6Zms {
     background-color: transparent !important;
 }
 
 /* LAUNCH STREAM BUTTONS (cancel, go live) */
-
-.footer-31IekZ, .container-2zEtSe {
+.footer-31IekZ,
+.container-2zEtSe {
     justify-content: space-around !important;
 }
 
 /* BUTTON CHANGE STREAM */
-
 .changeButton-3QdaoH {
     background-color: var(--normal-background) !important;
 }
 
 /* NO BORDER ROUND CHANNEL LIST */
-
-.base-2jDfDU, .sidebar-1tnWFu {
+.base-2jDfDU,
+.sidebar-1tnWFu {
     border-radius: 0 !important;
     padding-right: 0rem !important;
-    border-radius: 0 !important;
 }
 
 /* SERVER LIST PADDING */
-
 .wrapper-1_HaEi {
     padding: 0px;
 }
 
 /* UPLOAD FILE BACKGROUND */
-
-.uploadModal-2ie9
-
-/* background var */
-.app-2CXKsg>.bg-1QIAus {
+.uploadModal-2ie9 .app-2CXKsg > .bg-1QIAus {
     background: var(--background-url) !important;
     background-size: cover !important;
 }
 
-/* chat bar */
- .scrollableContainer-15eg7h {
-background: var(--light-background); 
+.theme-dark .scroller-WSmht3, .container-1oAagU, .container-1oAagU > div > div {
+    background-color: transparent;
+}
+
+.container-1oAagU > div > div {
+    border: #666 solid 1px;
+}
