@@ -1,4 +1,3 @@
-
 /* DEFINE MAIN VARIABLES */
 .theme-dark {
     --text-normal: rgb(255, 255, 255);
@@ -172,7 +171,11 @@
     background-size: cover !important;
 }
 
-.theme-dark .scroller-WSmht3, .container-1oAagU, .container-1oAagU > div > div {
+.theme-dark .scroller-WSmht3,
+.members-3WRCEx,
+.members-3WRCEx > div > div,
+.container-1oAagU,
+.container-1oAagU > div > div {
     background-color: transparent;
 }
 
