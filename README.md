@@ -19,7 +19,7 @@ If you see anything weird or anything that can be improved, please tell me on my
 
 ## **Tutorial**
 
-Download the [glass_local.theme.css](https://raw.githubusercontent.com/Kayno0o/vibrant-glass-theme/main/glass_remote.theme.css) file
+Download the [glass_local.theme.css](https://raw.githubusercontent.com/Kayno0o/vibrant-glass-theme/main/glass_local.theme.css) file
 
 Go to your [BetterDiscord](https://betterdiscord.app/) settings (in Discord) -> themes : ![settings](./images/theme_settings.png)
 
