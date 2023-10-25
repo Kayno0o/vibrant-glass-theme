@@ -70,22 +70,32 @@
     right: 2.5rem !important;
 }
 
-/* HOVER O */
-.winButton-3UMjdg:nth-child(3):hover {
-    background-color: var(--normal-background);
-}
-
 /* BUTTON - */
 .winButton-3UMjdg:nth-child(4) {
     right: 4.5rem !important;
 }
 
-/* HOVER - */
-.winButton-3UMjdg:nth-child(4):hover {
-    background-color: var(--normal-background);
+/* NORMAL BACKGROUND */
+.winButton-3UMjdg:nth-child(4):hover,
+.peopleColumn__51df3,
+.item-1OdjEX:hover,
+.focused-3qFvc8,
+.winButton-3UMjdg:nth-child(3):hover,
+.changeButton-3QdaoH,
+.scroller__3d071,
+.overlayBackground__86b78,
+.root_a28985 {
+    background-color: var(--normal-background) !important;
 }
 
-/* BIG PROFILE */
+/* DARK BACKGROUND */
+.backdrop-2ByYRN,
+.focusLock-2tveLW > *,
+.flex-2S1XBF {
+    background-color: var(--dark-background) !important;
+}
+
+/* LIGHT BACKGROUND */
 .flex-2S1XBF.root-SR8cQa,
 .topSectionPlaying-1J5E4n {
     background-color: var(--light-background) !important;
@@ -120,37 +130,10 @@
     color: var(--text-normal) !important;
 }
 
-/* MESSAGE OPTION */
-.item-1OdjEX:hover,
-.focused-3qFvc8 {
-    background-color: var(--normal-background) !important;
-}
-
-/* BLUR BACKGROUND */
-.backdrop-2ByYRN {
-    background-color: var(--dark-background) !important;
-}
-
-/* LAUNCH STREAM */
-.focusLock-2tveLW > *,
-.flex-2S1XBF {
-    background-color: var(--dark-background) !important;
-}
-
-/* IMAGES STATS */
-.imageDetails-1t6Zms {
-    background-color: transparent !important;
-}
-
 /* LAUNCH STREAM BUTTONS (cancel, go live) */
 .footer-31IekZ,
 .container-2zEtSe {
     justify-content: space-around !important;
-}
-
-/* BUTTON CHANGE STREAM */
-.changeButton-3QdaoH {
-    background-color: var(--normal-background) !important;
 }
 
 /* NO BORDER ROUND CHANNEL LIST */
@@ -171,11 +154,13 @@
     background-size: cover !important;
 }
 
+/* TRANSPARENT */
 .theme-dark .scroller-WSmht3,
 .members-3WRCEx,
 .members-3WRCEx > div > div,
 .container-1oAagU,
-.container-1oAagU > div > div {
+.container-1oAagU > div > div,
+.imageDetails-1t6Zms {
     background-color: transparent;
 }
 
