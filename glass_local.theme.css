@@ -25,7 +25,6 @@ to create custom gradient : https://cssgradient.io/ and copy the linear-gradient
 */
 
 /* DEFINE MAIN VARIABLES */
-
 .theme-dark {
     /*
     name of the Discord window (top left)
@@ -58,8 +57,7 @@ to create custom gradient : https://cssgradient.io/ and copy the linear-gradient
 }
 
 /* BACKGROUND */
-
-.app-2CXKsg>.bg-1QIAus {
+.bg__7adbf {
     background: var(--background-url) !important;
     background-size: cover !important;
 }
