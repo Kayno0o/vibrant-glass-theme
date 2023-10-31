@@ -57,7 +57,7 @@ to create custom gradient : https://cssgradient.io/ and copy the linear-gradient
 }
 
 /* BACKGROUND */
-.bg__7adbf {
+[class^="bg"] {
     background: var(--background-url) !important;
     background-size: cover !important;
 }
